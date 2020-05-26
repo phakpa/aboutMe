@@ -1,0 +1,54 @@
+header {
+    color: white;
+    background-color: darkcyan;
+}
+
+
+#title {
+    color: darkcyan;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+a {
+    color: grey;
+}
+
+a:link {
+    color: grey;
+}
+
+a:visited {
+    color: red;
+}
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color:black;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:grey;
+    color: white;
+    text-align: center;
+
+  .aboutMeBody {
+      background-color: white ;
+      width: 80%;
+      margin-top: 10px;
+      margin-left: 0px;
+      outline: 2px solid lightgray;
+  }
+
+  .navBorder {
+    border-bottom: 2px solid lightgray;
+  }
