@@ -1,35 +1,14 @@
+body {
+    background-color:whitesmoke;
+}
+
 header {
-    color: white;
+    border-bottom: 2px solid lightgray;
+    background-color: white;
+}
+#yourName {
+    text-align: center;
     background-color: darkcyan;
-}
-
-
-#title {
-    color: darkcyan;
-}
-
-img {
-    width: 150px;
-    height: 150px;
-}
-
-a {
-    color: grey;
-}
-
-a:link {
-    color: grey;
-}
-
-a:visited {
-    color: red;
-}
-a:hover {
-    color: blue;
-}
-
-a:active {
-    color:black;
 }
 
 footer {
@@ -40,15 +19,35 @@ footer {
     background-color:grey;
     color: white;
     text-align: center;
-
-  .aboutMeBody {
-      background-color: white ;
-      width: 80%;
-      margin-top: 10px;
-      margin-left: 0px;
-      outline: 2px solid lightgray;
+    padding: 15px;
+    border-top: 10px solid darkcyan;
   }
 
-  .navBorder {
-    border-bottom: 2px solid lightgray;
+  .aboutBody {
+    background-color: white ;
+    margin-top: 25px;
+    outline: 2px solid lightgray;
+    margin-left: 0px;
+    margin-right: 20px;
+  }
+
+  .aboutBodyhead {
+     border-bottom: 2px solid lightgray; 
+     color: darkcyan;
+  }
+
+  a {
+      color: gray;
+  }
+
+  a:link {
+      color: yellow;
+  }
+
+  a:hover {
+      color: blue;
+  }
+
+  a:visited {
+      color: red;
   }
