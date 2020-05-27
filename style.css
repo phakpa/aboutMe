@@ -29,6 +29,7 @@ footer {
     outline: 2px solid lightgray;
     margin-left: 0px;
     margin-right: 20px;
+    max-width: 750px;
   }
 
   .aboutBodyhead {
@@ -37,7 +38,7 @@ footer {
   }
 
   a {
-      color: gray;
+      color: blue;
   }
 
   a:link {
@@ -45,9 +46,31 @@ footer {
   }
 
   a:hover {
-      color: blue;
+      color: grey;
   }
 
-  a:visited {
-      color: red;
+  #myimage {
+      width: 80%;
+      height: 80%;
+}
+
+  img {
+      margin: left;
+      width: 60%;
+     
+  }
+
+  .imgpos {
+    position: relative;
+
+  }
+
+  .imgpos2 {
+    width: 60%;
+    position: absolute; bottom: 25px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:25px;
   }
