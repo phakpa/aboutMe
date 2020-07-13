@@ -29,7 +29,7 @@ footer {
   outline: 2px solid lightgray;
   margin-left: 0px;
   margin-right: 20px;
-  max-width: 750px;
+  max-width: 1300px;
 }
 
 .aboutBodyhead {
@@ -55,20 +55,28 @@ a:hover {
 }
 
 img {
-  margin: left;
-  width: 60%;
+  width: 100%;
 }
 
-.imgpos {
+.imgContainer {
   position: relative;
+  text-align: center;
+  color: lightblue;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.imgpos2 {
-  width: 60%;
+.centered {
   position: absolute;
-  bottom: 120px;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 25px;
-  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  background-color: white;
+  opacity: 80%;
+}
+
+.outline {
+  border: solid darkcyan;
 }
