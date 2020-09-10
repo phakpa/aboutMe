@@ -8,6 +8,6 @@ Here is the link to the Github repository. https://github.com/phakpa/aboutMe
 
 images below ------------------------------------------------------------------------------
 
-![](./Assets/Images/aboutme1.PNG)
-![](./Assets/Images/aboutme2.PNG)
-![](./Assets/Images/aboutme3.PNG)
+![](./images/aboutme1.PNG)
+![](./images/aboutme2.PNG)
+![](./images/aboutme3.PNG)
