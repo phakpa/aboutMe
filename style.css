@@ -1,5 +1,5 @@
 body {
-  background-color: whitesmoke;
+  background-color: lightblue;
 }
 
 header {
@@ -39,10 +39,6 @@ footer {
 
 a {
   color: blue;
-}
-
-a:link {
-  color: yellow;
 }
 
 a:hover {
